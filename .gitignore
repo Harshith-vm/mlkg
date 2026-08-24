@@ -1,0 +1,32 @@
+# Datasets (Do not push massive data files to GitHub)
+datasets/
+**/datasets/
+*.json
+*.jsonl
+*.csv
+
+# Old Archives & Logs
+Archive_Old_Files/
+*.log
+*.txt
+*.zip
+
+# Documents (Keep local)
+*.pdf
+*.docx
+*.jpg
+*.jpeg
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
