@@ -34,5 +34,3 @@ These layers are populated dynamically from massive NLP datasets using Python ET
 2. Execute the Cypher scripts in Layers 1-4.
 3. Install Python requirements: `pip install neo4j sentence-transformers numpy`
 4. Run the ETL pipelines in Layers 5 and 6 to ingest real-world data and generate semantic vector embeddings.
-
-*Note: Raw dataset files (e.g., `MentalChat16K`, `CounselChat`) are excluded from this repository due to size constraints. You must download them locally into the respective `datasets/` folders before running the pipelines.*
